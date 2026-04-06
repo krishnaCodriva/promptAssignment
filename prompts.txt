@@ -1,27 +1,57 @@
 Prompt 1:
-I am building a student result tracker backend using Node.js and SQL.
-Tables:
-students(id, name, roll_no, class)
-marks(id, student_id, subject, score, max_score)
-
-Generate:
-
-* 5 user stories
-* API endpoints
-* business rules
-* edge cases
+I need to build a backend project using Node.js.
+Suggest a simple project structure and beginner-friendly tools.
 
 Prompt 2:
-What additional edge cases should I handle? Include pass/fail logic.
+Help me design database tables for students and marks.
+Each student can have multiple subjects and scores.
+Provide SQL schema for SQLite.
 
 Prompt 3:
-Write SQL query to list students with total marks and total max marks.
+How do I connect SQLite database with Node.js using sqlite3 package?
+Provide a simple db.js file.
 
 Prompt 4:
-Write SQL query to find students scoring less than 40% in any subject.
+Create a basic Express server setup in server.js.
+Explain how to enable JSON body parsing.
 
 Prompt 5:
-Write SQL query for class average percentage per subject ordered by lowest.
+Create POST API to add a new student with name, roll_no and class.
 
 Prompt 6:
-Write Node.js Express route GET /students/:id/result that calculates total, percentage and pass/fail.
+Create GET API to fetch all students from database.
+
+Prompt 7:
+Create POST API to insert marks for a student including subject, score and max_score.
+
+Prompt 8:
+Write SQL query to calculate total marks and total max marks for a student.
+
+Prompt 9:
+Write SQL query to calculate percentage using total score and max score.
+
+Prompt 10:
+Create GET /students/:id/result API to calculate total, percentage and pass/fail status.
+
+Prompt 11:
+Explain how to test these APIs using Postman with example JSON bodies.
+
+Prompt 12:
+What edge cases should I handle for this project? Include missing marks and zero max score.
+
+Prompt 13:
+What files should be included in .gitignore for Node.js projec?
+
+Prompt 14:
+Explain how SQLite executes SQL queries without MySQL Workbench.
+
+Prompt 15:
+How can I verify APIs are working correctly using GET and POST requests?
+
+Prompt 16:
+How do I generate sample data for testing student result tracker?
+
+Prompt 17:
+Explain how to calculate pass/fail if percentage is below 40%.
+
+
