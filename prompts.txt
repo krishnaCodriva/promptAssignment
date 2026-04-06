@@ -1,0 +1,27 @@
+Prompt 1:
+I am building a student result tracker backend using Node.js and SQL.
+Tables:
+students(id, name, roll_no, class)
+marks(id, student_id, subject, score, max_score)
+
+Generate:
+
+* 5 user stories
+* API endpoints
+* business rules
+* edge cases
+
+Prompt 2:
+What additional edge cases should I handle? Include pass/fail logic.
+
+Prompt 3:
+Write SQL query to list students with total marks and total max marks.
+
+Prompt 4:
+Write SQL query to find students scoring less than 40% in any subject.
+
+Prompt 5:
+Write SQL query for class average percentage per subject ordered by lowest.
+
+Prompt 6:
+Write Node.js Express route GET /students/:id/result that calculates total, percentage and pass/fail.
